@@ -106,6 +106,20 @@ var err = new createError.NotFound()
 
 |Status Code|Constructor Name             |
 |-----------|-----------------------------|
+|100        |Continue                     |
+|101        |SwitchingProtocols           |
+|102        |Processing                   |
+|103        |EarlyHints                   |
+|200        |OK                           |
+|201        |Created                      |
+|202        |Accepted                     |
+|203        |Non-AuthoritativeInformation |
+|204        |NoContent                    |
+|205        |ResetContent                 |
+|206        |PartialContent               |
+|207        |Multi-Status                 |
+|208        |AlreadyReported              |
+|226        |IMUsed                       |
 |400        |BadRequest                   |
 |401        |Unauthorized                 |
 |402        |PaymentRequired              |
